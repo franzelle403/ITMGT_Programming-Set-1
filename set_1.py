@@ -1,9 +1,8 @@
 '''Programming Set 1
 
-Import math 
-
 This assignment will familiarize you with Python's basics.
 '''
+Import Math 
 
 def savings(gross_pay, tax_rate, expenses):
     '''Savings.

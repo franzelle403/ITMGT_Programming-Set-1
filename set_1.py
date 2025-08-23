@@ -1,5 +1,7 @@
 '''Programming Set 1
 
+Import math 
+
 This assignment will familiarize you with Python's basics.
 '''
 

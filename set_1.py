@@ -36,6 +36,8 @@ def savings (gross_pay, tax_rate, expenses):
     remaining = after_tax - expenses
     return remaining 
 
+savings(5000,0.13,500)
+
 def material_waste(total_material, material_units, num_jobs, job_consumption):
     '''Material Waste.
 
@@ -73,6 +75,8 @@ def material_waste(total_material, material_units, num_jobs, job_consumption):
     waste = total_material - total_consumed
     return f" {waste}{material_units}"
 
+material_waste(100, kg, 5, 10)
+
 def interest(principal, rate, periods):
     '''Interest.
 
@@ -104,3 +108,4 @@ def interest (principal, rate, periods):
     final_value = principal + math.floor (principal*(rate*periods)) 
     return (final_value)   
 
+interest (100, 0.03, 2)

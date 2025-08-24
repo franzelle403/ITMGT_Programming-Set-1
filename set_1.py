@@ -2,7 +2,7 @@
 
 This assignment will familiarize you with Python's basics.
 '''
-Import Math 
+import Math 
 
 def savings(gross_pay, tax_rate, expenses):
     '''Savings.

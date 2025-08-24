@@ -73,7 +73,7 @@ def material_waste(total_material, material_units, num_jobs, job_consumption):
 def material_waste(total_material, material_units, num_jobs, job_consumption):
     total_consumed = num_jobs*job_consumption
     waste = total_material - total_consumed
-    print (f' {waste}{material_units}')
+    print (f'{waste}{material_units}')
 
 material_waste(100, "kg", 5, 10)
 
